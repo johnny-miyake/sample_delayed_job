@@ -6,6 +6,8 @@ $ rake db:migrate
 $ ./script/delayed_job start
 $ rails console
 ```
+
+## Usage
 Creating a new user.
 ```ruby
 irb > u = User.create name: "johnny"
